@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Dataset and checkpoints
+dataset/*
+!dataset/.gitkeep
+
+weights/*
+!weights/.gitkeep
+
+# Generated results
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# IDE / agents
+.agents/
+.codex/
+
+# OS
+.DS_Store
